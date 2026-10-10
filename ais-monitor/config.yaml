@@ -1,0 +1,40 @@
+name: AIS Monitor
+version: "1.5.0"
+slug: ais_monitor
+description: "Ships near places you choose, live from AIS (aisstream.io): map, vessel details, 3D bridge view, harbour arrival and departure alerts."
+url: https://github.com/jchisholm59/ais-monitor
+arch:
+  - aarch64
+  - amd64
+  - armv7
+init: true
+startup: application
+boot: auto
+ingress: true
+ingress_port: 7110
+panel_icon: mdi:ferry
+panel_title: Ships
+ports:
+  7110/tcp: null
+ports_description:
+  7110/tcp: Dashboard and API for other browsers and the Lovelace card (optional; the sidebar panel works without it)
+options:
+  aisstream_key: ""
+  locations: "Halifax Harbour:44.635,-63.555"
+  ha_webhook: ""
+  ntfy_url: ""
+schema:
+  aisstream_key: password
+  locations: str
+  ha_webhook: str
+  ntfy_url: str
+  ntfy_token: password?
+  dashboard_url: str?
+  location_radius_nm: int(1,500)?
+  worldwide: bool?
+  area_lat: float?
+  area_lon: float?
+  area_radius_nm: int(1,2000)?
+  alert_radius_nm: float(0.5,50)?
+  closest: int(1,500)?
+  card_options: str?
