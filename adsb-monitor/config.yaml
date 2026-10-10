@@ -1,5 +1,5 @@
 name: ADS-B Monitor
-version: "1.8.0"
+version: "1.9.0"
 slug: adsb_monitor
 description: "Your PiAware / dump1090-fa receiver as a dashboard (map, flights, coverage, 3D cockpit with HUD) and phone alerts."
 url: https://github.com/jchisholm59/adsb-monitor
@@ -19,13 +19,16 @@ ports:
 ports_description:
   7100/tcp: Dashboard and API for other browsers and the Lovelace card (optional; the sidebar panel works without it)
 options:
+  source: piaware
   piaware: http://piaware.local
   skyaware_path: /skyaware/
   airport: ""
   ha_webhook: ""
   ntfy_url: ""
 schema:
-  piaware: url
+  source: list(piaware|adsb.lol|adsb.fi)
+  piaware: str
+  radius_nm: int(1,250)?
   skyaware_path: str
   airport: str
   ha_webhook: str

@@ -7,18 +7,21 @@ Watches your PiAware (or any dump1090-fa with SkyAware, or readsb/tar1090) aroun
 - **Phone alerts**: emergency squawks, military aircraft and helicopters nearby, **every arrival** at your airport ("on
   final RWY 23", then "landed", with a photo of the airframe), watched flights.
 
-The receiver doesn't have to be this machine: the add-on reads it over the network.
+The receiver doesn't have to be this machine: the add-on reads it over the network. **No receiver at all?** Set
+`source` to `adsb.lol` or `adsb.fi` and it shows the aircraft around your `lat`/`lon` from that aggregator instead.
 
 ## Configuration
 | Option | |
 |---|---|
-| `piaware` | Your PiAware / dump1090-fa address, e.g. `http://192.168.1.50` |
+| `source` | `piaware` (your receiver), or with **no receiver** a public aggregator for the area around `lat`/`lon`: `adsb.lol` (free, ODbL data) or `adsb.fi` (personal, non-commercial use only). With an aggregator, set `lat`, `lon` and `radius_nm`; Coverage and SkyAware are hidden |
+| `piaware` | Your PiAware / dump1090-fa address, e.g. `http://192.168.1.50` (ignored with an aggregator) |
+| `radius_nm` | With an aggregator: the area's radius, up to 250 nm (default 100) |
 | `skyaware_path` | Where SkyAware is served on it (`/skyaware/` for PiAware; `/tar1090/` for tar1090) |
 | `airport` | Your airport's ICAO code (e.g. `KBOS`, `EGLL`, `CYHZ`) for arrival and watched-flight alerts. Blank: none |
 | `ha_webhook` | Webhook for phone alerts through HA, e.g. `http://homeassistant:8123/api/webhook/<your-id>` (see below) |
 | `ntfy_url` | Or/also [ntfy](https://ntfy.sh): a topic URL with a long random name, e.g. `https://ntfy.sh/planes-7f3k9q` |
 | `ntfy_token`, `dashboard_url` | Optional: a token for a protected ntfy server; the page an ntfy alert opens |
-| `lat`, `lon` | Optional receiver position, if not the one PiAware was set up with |
+| `lat`, `lon` | Receiver position, if not the one PiAware was set up with; **required with an aggregator** (the centre of your area) |
 | `military_radius`, `heli_radius`, `cooldown_hours`, `overhead_radius` | Optional starting alert settings (nm, h); change them later in the dashboard's Alerts tab |
 | `card_options` | Optional card options as JSON, e.g. `{"title": "Planes", "rings": [25, 50, 100]}` |
 
