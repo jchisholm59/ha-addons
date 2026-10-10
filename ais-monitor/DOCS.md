@@ -20,6 +20,8 @@ Keeps one connection to [aisstream.io](https://aisstream.io) (a free AIS feed; n
 | `worldwide` | Optional: receive every vessel aisstream has (~6.5 GB/day download, more memory) |
 | `area_lat`, `area_lon`, `area_radius_nm` | Optional wider area to receive as well |
 | `alert_radius_nm`, `closest` | Optional: starting harbour circle (nm); how many closest vessels to list |
+| `admin_password` | Optional: share the dashboard's port with guests who can look but not change anything; you sign in on the Alerts tab. The sidebar panel (through Home Assistant) is always signed in |
+| `cesium_token` | Optional: a Cesium ion token (`assets:read`) for the Bridge view, for everyone using the dashboard, guests included |
 | `card_options` | Optional card options as JSON, e.g. `{"title": "Harbour", "n": 30}` |
 
 ### Phone alerts through Home Assistant

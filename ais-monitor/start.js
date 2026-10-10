@@ -8,6 +8,8 @@ try {
 const { card_options: card, ...rest } = opts;
 for (const [k, v] of Object.entries(rest)) if (v !== null && v !== undefined && v !== '') process.env[k.toUpperCase()] = String(v);
 process.env.DATA_DIR = '/data/store';
+// Home Assistant's ingress proxy: its users have already signed in to HA, so the sidebar panel is never a guest.
+process.env.ADMIN_TRUSTED_IPS = '172.30.32.2';
 fs.mkdirSync(process.env.DATA_DIR, { recursive: true });
 // Card options for the dashboard (JSON, e.g. {"title": "Planes"}): written where the monitor serves them from.
 const cardFile = '/data/store/card.json';

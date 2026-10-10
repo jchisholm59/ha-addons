@@ -23,6 +23,8 @@ The receiver doesn't have to be this machine: the add-on reads it over the netwo
 | `ntfy_token`, `dashboard_url` | Optional: a token for a protected ntfy server; the page an ntfy alert opens |
 | `lat`, `lon` | Receiver position, if not the one PiAware was set up with; **required with an aggregator** (the centre of your area) |
 | `military_radius`, `heli_radius`, `cooldown_hours`, `overhead_radius` | Optional starting alert settings (nm, h); change them later in the dashboard's Alerts tab |
+| `admin_password` | Optional: share the dashboard's port with guests who can look but not change anything; you sign in on the Alerts tab. The sidebar panel (through Home Assistant) is always signed in |
+| `cesium_token` | Optional: a Cesium ion token (`assets:read`) for the Cockpit view, for everyone using the dashboard, guests included |
 | `card_options` | Optional card options as JSON, e.g. `{"title": "Planes", "rings": [25, 50, 100]}` |
 
 ### Phone alerts through Home Assistant
