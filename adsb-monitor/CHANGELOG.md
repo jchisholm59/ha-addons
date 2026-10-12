@@ -1,3 +1,6 @@
+## 1.11.1
+The Cockpit tab says why Google's 3D tiles are unavailable (rate limit, usage allowance, asset, Allowed URLs, network) and retries them, carrying on over a plain globe meanwhile. [adsb-monitor v1.11.1](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.11.1).
+
 ## 1.11.0
 Follow view, like Flightradar24's 3D view: the aircraft in 3D (Flightradar24's models for its type, fetched from jsDelivr the first time they're needed) with an orbit camera and Behind / Side / Front / Above / Auto angles; Smooth plays it 3 s behind live along its real path. [adsb-monitor v1.11.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.11.0).
 
