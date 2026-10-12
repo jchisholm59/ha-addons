@@ -33,8 +33,8 @@ harbours and ship types alert in the dashboard's **Alerts** tab, and test it the
 Needs a free [Cesium ion](https://ion.cesium.com/tokens) token (scope `assets:read`), pasted into the Bridge tab once;
 restrict its *Allowed URLs* to your Home Assistant address(es).
 
-**Follow view** (button in the Bridge tab) shows the vessel itself in 3D, built to scale from its AIS type, length and
-beam: drag to circle it, wheel or pinch to zoom, **View** for Behind, Side, Front, Above or Auto. **Smooth** (on by
+**Follow view** (button in the Bridge tab) shows the vessel itself in 3D: a realistic model for its AIS type (CC BY
+4.0, see the monitor's CREDITS.md), stretched to its length and beam, with a wake when it's under way: drag to circle it, wheel or pinch to zoom, **View** for Behind, Side, Front, Above or Auto. **Smooth** (on by
 default) shows it 20 s behind live along its real path between position reports.
 
 ## The Lovelace card, and other browsers
