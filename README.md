@@ -9,6 +9,8 @@ Two add-ons for **Home Assistant OS** (or Supervised), so everything runs on you
 
 ![The ADS-B Monitor's HUD on final into Halifax](https://github.com/jchisholm59/adsb-monitor/raw/main/docs/hud.jpg)
 
+![The ADS-B Monitor's Follow view: Porter 205, an Embraer E195-E2, over the lakes of Nova Scotia](https://github.com/jchisholm59/adsb-monitor/raw/main/docs/follow-porter.jpg)
+
 ## Install
 1. **Settings → Add-ons → Add-on Store → ⋮ → Repositories**, add `https://github.com/jchisholm59/ha-addons`.
 2. Find **ADS-B Monitor** and/or **AIS Monitor** in the store, **Install**.
