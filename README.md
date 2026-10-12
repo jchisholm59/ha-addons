@@ -18,4 +18,10 @@ Two add-ons for **Home Assistant OS** (or Supervised), so everything runs on you
 Each add-on builds the matching tagged release of its monitor on your HA box (Node.js 22, no dependencies): amd64,
 aarch64 (Pi 4/5, most ARM boxes) and armv7.
 
+## Updating
+When a new version is out, HA shows it under **Settings → Updates** (or **Check for updates** in the Add-on Store's ⋮
+menu); press **Update**. Your Configuration and the add-on's data (coverage, alert log, known vessels...) are kept.
+
 Not on HA OS? The same monitors run anywhere with `./install.sh`, with or without Home Assistant: see their READMEs.
+To update one of those, don't clone it again: `cd adsb-monitor && git pull && ./install.sh --yes` (or `ais-monitor`)
+keeps your `.env` and `data/`.
