@@ -1,3 +1,6 @@
+## 1.7.0
+Follow view: the vessel in 3D, built to scale from its AIS type, length and beam, with an orbit camera and Behind / Side / Front / Above / Auto angles; Smooth plays it 20 s behind live along its real path. [ais-monitor v1.7.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.7.0).
+
 ## 1.6.0
 Guest mode: with `admin_password` set, people you share the dashboard with can look but not change alerts or saved locations; `cesium_token` gives them the Bridge view. [ais-monitor v1.6.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.6.0).
 

@@ -33,6 +33,10 @@ harbours and ship types alert in the dashboard's **Alerts** tab, and test it the
 Needs a free [Cesium ion](https://ion.cesium.com/tokens) token (scope `assets:read`), pasted into the Bridge tab once;
 restrict its *Allowed URLs* to your Home Assistant address(es).
 
+**Follow view** (button in the Bridge tab) shows the vessel itself in 3D, built to scale from its AIS type, length and
+beam: drag to circle it, wheel or pinch to zoom, **View** for Behind, Side, Front, Above or Auto. **Smooth** (on by
+default) shows it 20 s behind live along its real path between position reports.
+
 ## The Lovelace card, and other browsers
 The sidebar panel needs nothing else. For the [card](https://github.com/jchisholm59/ais-monitor) on a dashboard, or to
 open the page from another device, set a host port for `7110/tcp` under **Network**; the card's `monitor` is then
