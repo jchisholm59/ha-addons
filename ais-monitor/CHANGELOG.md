@@ -1,3 +1,6 @@
+## 1.9.0
+CruiseMapper links for cruise ships in the Vessel tab (suggested in #2). [ais-monitor v1.9.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.9.0).
+
 ## 1.8.2
 Locations edited in the card are saved in the add-on's storage and survive restarts (#2). [ais-monitor v1.8.2](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.8.2).
 
