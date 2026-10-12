@@ -1,3 +1,6 @@
+## 1.8.1
+Follow view: swapped AIS dimensions corrected (beam reported longer than length), and pleasure craft under 10 m drawn as a runabout. [ais-monitor v1.8.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.8.1).
+
 ## 1.8.0
 Realistic 3D ships (CC BY 4.0 models, stretched to each vessel's AIS length and beam) and wakes in the Follow view; the Bridge tab says why Google's 3D tiles are unavailable and retries them. [ais-monitor v1.8.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.8.0).
 
