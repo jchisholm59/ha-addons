@@ -1,3 +1,6 @@
+## 1.8.2
+Locations edited in the card are saved in the add-on's storage and survive restarts (#2). [ais-monitor v1.8.2](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.8.2).
+
 ## 1.8.1
 Follow view: swapped AIS dimensions corrected (beam reported longer than length), and pleasure craft under 10 m drawn as a runabout. [ais-monitor v1.8.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.8.1).
 
