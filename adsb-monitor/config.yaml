@@ -1,5 +1,5 @@
 name: ADS-B Monitor
-version: "1.10.0"
+version: "1.11.0"
 slug: adsb_monitor
 description: "Your PiAware / dump1090-fa receiver as a dashboard (map, flights, coverage, 3D cockpit with HUD) and phone alerts."
 url: https://github.com/jchisholm59/adsb-monitor

@@ -36,6 +36,11 @@ Create an automation from [`ha-automation.yaml`](https://github.com/jchisholm59/
 Needs a free [Cesium ion](https://ion.cesium.com/tokens) token (scope `assets:read`): paste it into the Cockpit tab
 once. Restrict its *Allowed URLs* to your Home Assistant address(es), since anyone who can open the dashboard can read it.
 
+**Follow view** (button in the Cockpit tab) shows the aircraft itself in 3D: drag to circle it, wheel or pinch to zoom,
+**View** for Behind, Side, Front, Above or Auto. Its models are [Flightradar24's](https://github.com/Flightradar24/fr24-3d-models)
+(from FlightGear, GPL-2.0), downloaded by your browser from jsDelivr the first time each type is shown (1-7 MB, then
+cached). **Smooth** (on by default) shows the aircraft 3 s behind live along its real path.
+
 ## The Lovelace card, and other browsers
 The sidebar panel needs nothing else. To use the [card](https://github.com/jchisholm59/adsb-monitor) on a dashboard, or
 open the page directly from another device, set a host port for `7100/tcp` under **Network**; the card's `monitor` and

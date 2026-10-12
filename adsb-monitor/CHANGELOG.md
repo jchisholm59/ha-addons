@@ -1,3 +1,6 @@
+## 1.11.0
+Follow view, like Flightradar24's 3D view: the aircraft in 3D (Flightradar24's models for its type, fetched from jsDelivr the first time they're needed) with an orbit camera and Behind / Side / Front / Above / Auto angles; Smooth plays it 3 s behind live along its real path. [adsb-monitor v1.11.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.11.0).
+
 ## 1.10.0
 Guest mode: with `admin_password` set, people you share the dashboard with can look but not change alerts or watched flights; `cesium_token` gives them the Cockpit view. [adsb-monitor v1.10.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.10.0).
 
