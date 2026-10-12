@@ -1,3 +1,6 @@
+## 1.11.2
+The Cockpit's 3D world loads the ground to either side straight away, not only in the middle of the screen. [adsb-monitor v1.11.2](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.11.2).
+
 ## 1.11.1
 The Cockpit tab says why Google's 3D tiles are unavailable (rate limit, usage allowance, asset, Allowed URLs, network) and retries them, carrying on over a plain globe meanwhile. [adsb-monitor v1.11.1](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.11.1).
 

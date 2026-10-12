@@ -1,3 +1,6 @@
+## 1.9.1
+The Bridge view loads the shore to either side without switching to Follow view first. [ais-monitor v1.9.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.9.1).
+
 ## 1.9.0
 CruiseMapper links for cruise ships in the Vessel tab (suggested in #2). [ais-monitor v1.9.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.9.0).
 
