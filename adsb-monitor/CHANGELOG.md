@@ -1,3 +1,6 @@
+## 1.11.5
+Smoother climbs and descents in the Cockpit view: no more pitching every couple of seconds. [adsb-monitor v1.11.5](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.11.5).
+
 ## 1.11.4
 Aircraft no longer bob up and down in the Cockpit and Follow views (altitude's 25 ft steps are smoothed). [adsb-monitor v1.11.4](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.11.4).
 
