@@ -1,3 +1,6 @@
+## 1.11.3
+The Cockpit's 3D world appears sooner: coarse first, then sharp. [adsb-monitor v1.11.3](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.11.3).
+
 ## 1.11.2
 The Cockpit's 3D world loads the ground to either side straight away, not only in the middle of the screen. [adsb-monitor v1.11.2](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.11.2).
 

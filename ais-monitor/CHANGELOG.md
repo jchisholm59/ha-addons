@@ -1,3 +1,6 @@
+## 1.9.2
+The Bridge view's 3D world appears sooner: coarse first, then sharp. [ais-monitor v1.9.2](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.9.2).
+
 ## 1.9.1
 The Bridge view loads the shore to either side without switching to Follow view first. [ais-monitor v1.9.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.9.1).
 
