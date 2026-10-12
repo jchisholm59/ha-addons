@@ -1,3 +1,6 @@
+## 1.9.3
+Steadier vessel in the Bridge and Follow views: it eases onto the water height instead of snapping to each reading. [ais-monitor v1.9.3](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.9.3).
+
 ## 1.9.2
 The Bridge view's 3D world appears sooner: coarse first, then sharp. [ais-monitor v1.9.2](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.9.2).
 
