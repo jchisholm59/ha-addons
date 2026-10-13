@@ -11,6 +11,8 @@ already receives. It gives you:
     Home Assistant's own statistics, so the history is there from day one.
   - **Alerts**: wind gusts, heavy rain, a wet day, frost, heat, pressure falling fast, the station going quiet, a low
     sensor battery.
+- **Lightning**, if this HA has the [Blitzortung](https://github.com/mrk-its/homeassistant-blitzortung) integration
+  (HACS): recent strikes plotted around the station, counts, the nearest one, and a "lightning within X km" alert.
 - **Several stations**, say home and a cottage, switched with a button: this HA's own station, plus any station in
   another Home Assistant you can reach (over Tailscale, say).
 

@@ -1,2 +1,5 @@
+## 1.1.0
+Lightning from the Blitzortung integration (HACS), if installed: strike plot, counts, graph and a "lightning within X km" alert. Reconnects to Home Assistant after it restarts. [ecowitt-monitor v1.1.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.1.0).
+
 ## 1.0.0
 First release: Now, Graphs (6 h to a year, from HA's statistics) and Alerts for Ecowitt stations, this HA's own and others. [ecowitt-monitor v1.0.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.0.0).
