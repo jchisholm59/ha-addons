@@ -22,6 +22,7 @@ Keeps one connection to [aisstream.io](https://aisstream.io) (a free AIS feed; n
 | `alert_radius_nm`, `closest` | Optional: starting harbour circle (nm); how many closest vessels to list |
 | `admin_password` | Optional: share the dashboard's port with guests who can look but not change anything; you sign in on the Alerts tab. The sidebar panel (through Home Assistant) is always signed in |
 | `cesium_token` | Optional: a Cesium ion token (`assets:read`) for the Bridge view, for everyone using the dashboard, guests included |
+| `worldtides_key` | Optional: a [WorldTides](https://www.worldtides.info) API key for the Tides tab's places outside Canada and the US (else the free Open-Meteo tide model) |
 | `card_options` | Optional card options as JSON, e.g. `{"title": "Harbour", "n": 30}` |
 
 ### Phone alerts through Home Assistant

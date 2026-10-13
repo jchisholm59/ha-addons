@@ -25,7 +25,7 @@ for (const s of opts.stations || []) {
   set(`STATION_${n}_HA_TOKEN`, s.ha_token);
   set(`STATION_${n}_ID`, s.station_id);
 }
-for (const k of ['ha_webhook', 'ntfy_url', 'ntfy_token', 'dashboard_url', 'admin_password']) set(k.toUpperCase(), opts[k]);
+for (const k of ['ha_webhook', 'ntfy_url', 'ntfy_token', 'dashboard_url', 'admin_password', 'worldtides_key']) set(k.toUpperCase(), opts[k]);
 process.env.DATA_DIR = '/data/store';
 // Home Assistant's ingress proxy: its users have already signed in to HA, so the sidebar panel is never a guest.
 process.env.ADMIN_TRUSTED_IPS = '172.30.32.2';

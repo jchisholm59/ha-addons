@@ -1,3 +1,6 @@
+## 1.7.0
+The tides relay adds US (NOAA) stations and a tide model anywhere, with local times. Optional `worldtides_key`. [ecowitt-monitor v1.7.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.7.0).
+
 ## 1.6.0
 Tide station search and a saved station list (for a tides card). [ecowitt-monitor v1.6.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.6.0).
 

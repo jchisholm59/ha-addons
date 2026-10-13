@@ -1,5 +1,5 @@
 name: AIS Monitor
-version: "1.9.3"
+version: "1.10.0"
 slug: ais_monitor
 description: "Ships near places you choose, live from AIS (aisstream.io): map, vessel details, 3D bridge view, harbour arrival and departure alerts."
 url: https://github.com/jchisholm59/ais-monitor
@@ -39,4 +39,5 @@ schema:
   closest: int(1,500)?
   admin_password: password?
   cesium_token: password?
+  worldtides_key: password?
   card_options: str?

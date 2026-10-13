@@ -1,3 +1,6 @@
+## 1.10.0
+A Tides tab: tides at your locations (Canadian and US stations, a tide model anywhere else), following the location picker. Optional `worldtides_key` for WorldTides. [ais-monitor v1.10.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.10.0).
+
 ## 1.9.3
 Steadier vessel in the Bridge and Follow views: it eases onto the water height instead of snapping to each reading. [ais-monitor v1.9.3](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.9.3).
 

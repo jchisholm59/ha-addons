@@ -31,6 +31,7 @@ It only reads: states and statistics. This HA's station needs no token (the add-
 | `ntfy_url` | Or/also [ntfy](https://ntfy.sh): a topic URL with a long random name |
 | `ntfy_token`, `dashboard_url` | Optional: a token for a protected ntfy server; the page an ntfy alert opens |
 | `admin_password` | Optional: share the dashboard's port with guests who can look but not change alerts; you sign in on the Alerts tab. The sidebar panel (through Home Assistant) is always signed in |
+| `worldtides_key` | Optional: a [WorldTides](https://www.worldtides.info) API key for the Tides tab's places outside Canada and the US (else the free Open-Meteo tide model) |
 | `card_options` | Optional card options as JSON, e.g. `{"title": "Weather", "range": "7d"}` |
 
 A second station, in YAML mode:
