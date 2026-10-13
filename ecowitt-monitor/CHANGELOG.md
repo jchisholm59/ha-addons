@@ -1,3 +1,6 @@
+## 1.7.2
+The moon is tilted as it really is in the station's sky. [ecowitt-monitor v1.7.2](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.7.2).
+
 ## 1.7.1
 Tides card chart labels kept inside the chart. [ecowitt-monitor v1.7.1](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.7.1).
 

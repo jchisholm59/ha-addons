@@ -1,3 +1,6 @@
+## 1.10.2
+The Tides tab's moon is tilted as it really is in each place's sky. [ais-monitor v1.10.2](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.10.2).
+
 ## 1.10.1
 Tides tab polish (icons, chart labels). [ais-monitor v1.10.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.10.1).
 
