@@ -13,6 +13,8 @@ already receives. It gives you:
     sensor battery.
 - **Lightning**, if this HA has the [Blitzortung](https://github.com/mrk-its/homeassistant-blitzortung) integration
   (HACS): recent strikes plotted around the station, counts, the nearest one, and a "lightning within X km" alert.
+- **Radar** (Canada): Environment Canada's rain and snow radar on a satellite map centred on the station, the last
+  hour looped.
 - **Several stations**, say home and a cottage, switched with a button: this HA's own station, plus any station in
   another Home Assistant you can reach (over Tailscale, say).
 

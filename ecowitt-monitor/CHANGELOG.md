@@ -1,3 +1,6 @@
+## 1.3.0
+Environment Canada radar (rain and snow, the last hour looped) beside the lightning map. [ecowitt-monitor v1.3.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.3.0).
+
 ## 1.2.0
 Lightning on a satellite map centred on the station's home, with range rings and zoom. [ecowitt-monitor v1.2.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.2.0).
 
