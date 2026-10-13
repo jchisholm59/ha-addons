@@ -1,3 +1,6 @@
+## 1.5.0
+A relay for Canadian Hydrographic Service tide predictions (`/api/tides`). [ecowitt-monitor v1.5.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.5.0).
+
 ## 1.4.0
 The moon on the Graphs tab: phase, moonrise and moonset, next full and new moons, an illumination chart. [ecowitt-monitor v1.4.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.4.0).
 
