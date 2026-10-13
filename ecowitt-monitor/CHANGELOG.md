@@ -1,3 +1,6 @@
+## 1.4.0
+The moon on the Graphs tab: phase, moonrise and moonset, next full and new moons, an illumination chart. [ecowitt-monitor v1.4.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.4.0).
+
 ## 1.3.1
 The radar map zooms out to 500 and 1,000 km. [ecowitt-monitor v1.3.1](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.3.1).
 
