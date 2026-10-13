@@ -1,3 +1,6 @@
+## 1.6.0
+Tide station search and a saved station list (for a tides card). [ecowitt-monitor v1.6.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.6.0).
+
 ## 1.5.0
 A relay for Canadian Hydrographic Service tide predictions (`/api/tides`). [ecowitt-monitor v1.5.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.5.0).
 
