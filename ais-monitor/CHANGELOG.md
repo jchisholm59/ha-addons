@@ -1,3 +1,6 @@
+## 1.10.1
+Tides tab polish (icons, chart labels). [ais-monitor v1.10.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.10.1).
+
 ## 1.10.0
 A Tides tab: tides at your locations (Canadian and US stations, a tide model anywhere else), following the location picker. Optional `worldtides_key` for WorldTides. [ais-monitor v1.10.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.10.0).
 

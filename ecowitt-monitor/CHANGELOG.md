@@ -1,3 +1,6 @@
+## 1.7.1
+Tides card chart labels kept inside the chart. [ecowitt-monitor v1.7.1](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.7.1).
+
 ## 1.7.0
 The tides relay adds US (NOAA) stations and a tide model anywhere, with local times. Optional `worldtides_key`. [ecowitt-monitor v1.7.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.7.0).
 
