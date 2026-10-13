@@ -1,3 +1,6 @@
+## 1.2.0
+Lightning on a satellite map centred on the station's home, with range rings and zoom. [ecowitt-monitor v1.2.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.2.0).
+
 ## 1.1.0
 Lightning from the Blitzortung integration (HACS), if installed: strike plot, counts, graph and a "lightning within X km" alert. Reconnects to Home Assistant after it restarts. [ecowitt-monitor v1.1.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.1.0).
 
