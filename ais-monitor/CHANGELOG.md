@@ -1,3 +1,6 @@
+## 1.11.0
+Leaving alerts can have their own, smaller **departure circle** (Alerts tab), so a departure alerts as the ship pulls away from its berth rather than once it's out of the harbour circle (suggested in #2). [ais-monitor v1.11.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.11.0).
+
 ## 1.10.2
 The Tides tab's moon is tilted as it really is in each place's sky. [ais-monitor v1.10.2](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.10.2).
 
