@@ -1,3 +1,6 @@
+## 1.12.0
+**Watched ships**: tap Watch on a ship's Vessel tab and it alerts whenever it arrives at or leaves a watched harbour, whatever its type. [ais-monitor v1.12.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.12.0).
+
 ## 1.11.0
 Leaving alerts can have their own, smaller **departure circle** (Alerts tab), so a departure alerts as the ship pulls away from its berth rather than once it's out of the harbour circle (suggested in #2). [ais-monitor v1.11.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.11.0).
 
