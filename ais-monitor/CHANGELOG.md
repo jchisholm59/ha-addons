@@ -1,3 +1,6 @@
+## 1.12.1
+*Manage locations* place search falls back to OpenStreetMap's Nominatim when Photon doesn't answer, instead of "Place search unavailable". [ais-monitor v1.12.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.12.1).
+
 ## 1.12.0
 **Watched ships**: tap Watch on a ship's Vessel tab and it alerts whenever it arrives at or leaves a watched harbour, whatever its type. [ais-monitor v1.12.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.12.0).
 
