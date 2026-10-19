@@ -1,3 +1,6 @@
+## 1.12.2
+The AIS feed no longer stops for good when aisstream refuses a reconnect ("AIS feed problem" until the add-on was restarted): a connect attempt that hasn't opened within 2 minutes is retried. [ais-monitor v1.12.2](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.12.2).
+
 ## 1.12.1
 *Manage locations* place search falls back to OpenStreetMap's Nominatim when Photon doesn't answer, instead of "Place search unavailable". [ais-monitor v1.12.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.12.1).
 
