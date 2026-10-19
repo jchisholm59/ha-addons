@@ -1,3 +1,6 @@
+## 1.13.0
+Ship photos: the Vessel tab shows the selected ship's photo (photographer and licence underneath, tap for full size) and the Bridge and Follow views show it framed bottom left (tap to enlarge, **Photo** button to hide). Photos are now also found in Wikimedia Commons' "IMO <number>" categories, so more ships (and alerts) have one. [ais-monitor v1.13.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.13.0).
+
 ## 1.12.2
 The AIS feed no longer stops for good when aisstream refuses a reconnect ("AIS feed problem" until the add-on was restarted): a connect attempt that hasn't opened within 2 minutes is retried. [ais-monitor v1.12.2](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.12.2).
 
