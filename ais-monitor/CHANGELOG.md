@@ -1,3 +1,6 @@
+## 1.13.1
+The Vessel tab shows the ship's whole photo, scaled to fit, instead of a cropped strip. [ais-monitor v1.13.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.13.1).
+
 ## 1.13.0
 Ship photos: the Vessel tab shows the selected ship's photo (photographer and licence underneath, tap for full size) and the Bridge and Follow views show it framed bottom left (tap to enlarge, **Photo** button to hide). Photos are now also found in Wikimedia Commons' "IMO <number>" categories, so more ships (and alerts) have one. [ais-monitor v1.13.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.13.0).
 
