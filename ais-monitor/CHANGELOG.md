@@ -1,3 +1,6 @@
+## 1.15.0
+A **Listen** button in the Bridge view plays marine VHF from a [Pi-SDR](https://github.com/jchisholm59/Pi-SDR) receiver on your network. Set it up with `sdr` in `card_options`, e.g. `{"sdr": {"url": "http://192.168.1.30:8073", "channels": [{"name": "Ch 16", "freq": 156.8}]}}`. [ais-monitor v1.15.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.15.0).
+
 ## 1.14.1
 Addresses in the options work without `http://` (it's added for you; `https://` for an ntfy topic). [ais-monitor v1.14.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.14.1).
 
