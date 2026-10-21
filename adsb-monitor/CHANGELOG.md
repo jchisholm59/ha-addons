@@ -1,3 +1,6 @@
+## 1.13.1
+Closing the tab while listening in the Cockpit view works like Stop: the Pi-SDR is tuned back where it was. [adsb-monitor v1.13.1](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.13.1).
+
 ## 1.13.0
 A **Listen** button in the Cockpit view plays the airband from a [Pi-SDR](https://github.com/jchisholm59/Pi-SDR) receiver on your network (Tower switches to Ground when the aircraft you follow lands). Set it up with `sdr` in `card_options`, e.g. `{"sdr": {"url": "http://192.168.1.30:8073", "channels": [{"name": "Tower", "freq": 118.4}]}}`. [adsb-monitor v1.13.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.13.0).
 

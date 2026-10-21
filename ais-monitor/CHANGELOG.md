@@ -1,3 +1,6 @@
+## 1.15.2
+Closing the tab while listening in the Bridge view works like Stop: the Pi-SDR is tuned back where it was. [ais-monitor v1.15.2](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.15.2).
+
 ## 1.15.1
 The map opens on satellite imagery (the satellite button still switches to the gray map). [ais-monitor v1.15.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.15.1).
 
