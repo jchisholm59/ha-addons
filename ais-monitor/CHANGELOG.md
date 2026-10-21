@@ -1,3 +1,6 @@
+## 1.17.0
+Listen can switch to a harbour's traffic channel when the vessel you follow sails in (a channel `area` in `card_options`). [ais-monitor v1.17.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.17.0).
+
 ## 1.16.0
 A squelch slider (with an open light) while listening in the Bridge view. [ais-monitor v1.16.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.16.0).
 
