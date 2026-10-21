@@ -1,3 +1,6 @@
+## 1.12.0
+CesiumJS (the Cockpit and Follow views) now comes with the add-on instead of from Cesium's CDN, so the 3D views no longer depend on cesium.com. [adsb-monitor v1.12.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.12.0).
+
 ## 1.11.5
 Smoother climbs and descents in the Cockpit view: no more pitching every couple of seconds. [adsb-monitor v1.11.5](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.11.5).
 

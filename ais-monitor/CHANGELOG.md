@@ -1,3 +1,6 @@
+## 1.14.0
+CesiumJS (the Bridge and Follow views) now comes with the add-on instead of from Cesium's CDN, so the 3D views no longer depend on cesium.com. [ais-monitor v1.14.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.14.0).
+
 ## 1.13.1
 The Vessel tab shows the ship's whole photo, scaled to fit, instead of a cropped strip. [ais-monitor v1.13.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.13.1).
 
