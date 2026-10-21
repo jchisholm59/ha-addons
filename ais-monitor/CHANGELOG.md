@@ -1,3 +1,6 @@
+## 1.18.0
+A Listen panel on the map and in the Bridge: channel lights, Scan, Lock, squelch and ⊘ to skip a channel (the marine weather broadcast), with a Pi-SDR receiver (needs Pi-SDR from 2026-10-21). [ais-monitor v1.18.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.18.0).
+
 ## 1.17.0
 Listen can switch to a harbour's traffic channel when the vessel you follow sails in (a channel `area` in `card_options`). [ais-monitor v1.17.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.17.0).
 

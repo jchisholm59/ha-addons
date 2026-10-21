@@ -1,3 +1,6 @@
+## 1.15.0
+A Listen panel on the map and in the Cockpit: channel lights, Scan, Lock, squelch and ⊘ to skip a channel, with a Pi-SDR receiver (needs Pi-SDR from 2026-10-21). The map opens on satellite imagery. [adsb-monitor v1.15.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.15.0).
+
 ## 1.14.0
 A squelch slider (with an open light) while listening in the Cockpit view. [adsb-monitor v1.14.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.14.0).
 
