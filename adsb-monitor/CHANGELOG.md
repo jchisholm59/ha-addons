@@ -1,3 +1,6 @@
+## 1.14.0
+A squelch slider (with an open light) while listening in the Cockpit view. [adsb-monitor v1.14.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.14.0).
+
 ## 1.13.1
 Closing the tab while listening in the Cockpit view works like Stop: the Pi-SDR is tuned back where it was. [adsb-monitor v1.13.1](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.13.1).
 

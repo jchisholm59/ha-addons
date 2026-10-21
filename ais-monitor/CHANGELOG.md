@@ -1,3 +1,6 @@
+## 1.16.0
+A squelch slider (with an open light) while listening in the Bridge view. [ais-monitor v1.16.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.16.0).
+
 ## 1.15.2
 Closing the tab while listening in the Bridge view works like Stop: the Pi-SDR is tuned back where it was. [ais-monitor v1.15.2](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.15.2).
 
