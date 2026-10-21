@@ -1,3 +1,6 @@
+## 1.7.3
+Addresses in the options work without `http://` (it's added for you; `https://` for an ntfy topic). [ecowitt-monitor v1.7.3](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.7.3).
+
 ## 1.7.2
 The moon is tilted as it really is in the station's sky. [ecowitt-monitor v1.7.2](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.7.2).
 

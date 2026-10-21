@@ -1,3 +1,6 @@
+## 1.14.1
+Addresses in the options work without `http://` (it's added for you; `https://` for an ntfy topic). [ais-monitor v1.14.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.14.1).
+
 ## 1.14.0
 CesiumJS (the Bridge and Follow views) now comes with the add-on instead of from Cesium's CDN, so the 3D views no longer depend on cesium.com. [ais-monitor v1.14.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.14.0).
 

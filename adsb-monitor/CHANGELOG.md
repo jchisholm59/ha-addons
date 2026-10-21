@@ -1,3 +1,6 @@
+## 1.12.1
+Addresses in the options work without `http://` (it's added for you; `https://` for an ntfy topic). [adsb-monitor v1.12.1](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.12.1).
+
 ## 1.12.0
 CesiumJS (the Cockpit and Follow views) now comes with the add-on instead of from Cesium's CDN, so the 3D views no longer depend on cesium.com. [adsb-monitor v1.12.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.12.0).
 
