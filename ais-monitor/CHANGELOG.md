@@ -1,3 +1,6 @@
+## 1.18.1
+The Listen panel shows when Scan is waiting (pulsing Scan, outlined channel) versus playing; several browsers can listen at once. [ais-monitor v1.18.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.18.1).
+
 ## 1.18.0
 A Listen panel on the map and in the Bridge: channel lights, Scan, Lock, squelch and ⊘ to skip a channel (the marine weather broadcast), with a Pi-SDR receiver (needs Pi-SDR from 2026-10-21). [ais-monitor v1.18.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.18.0).
 

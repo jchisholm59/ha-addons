@@ -1,3 +1,6 @@
+## 1.15.1
+The Listen panel shows when Scan is waiting (pulsing Scan, outlined channel) versus playing; several browsers can listen at once. [adsb-monitor v1.15.1](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.15.1).
+
 ## 1.15.0
 A Listen panel on the map and in the Cockpit: channel lights, Scan, Lock, squelch and ⊘ to skip a channel, with a Pi-SDR receiver (needs Pi-SDR from 2026-10-21). The map opens on satellite imagery. [adsb-monitor v1.15.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.15.0).
 
