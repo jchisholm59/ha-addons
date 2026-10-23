@@ -13,7 +13,10 @@ Three add-ons for **Home Assistant OS** (or Supervised), so everything runs on y
 ![The ADS-B Monitor's Follow view: Porter 205, an Embraer E195-E2, over the lakes of Nova Scotia](https://github.com/jchisholm59/adsb-monitor/raw/main/docs/follow-porter.jpg)
 
 ## Install
-1. **Settings → Add-ons → Add-on Store → ⋮ → Repositories**, add `https://github.com/jchisholm59/ha-addons`.
+[![Add the repository to my Home Assistant](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fjchisholm59%2Fha-addons)
+
+1. Click the button above (the first time, it asks for your Home Assistant's address), or by hand: **Settings → Add-ons →
+   Add-on Store → ⋮ → Repositories**, add `https://github.com/jchisholm59/ha-addons`.
 2. Find **ADS-B Monitor**, **AIS Monitor** and/or **Ecowitt Monitor** in the store, **Install**.
 3. Fill in the **Configuration** tab (each add-on's **Documentation** tab explains every option), **Start**.
 4. Open **Planes** / **Ships** / **Weather** from HA's sidebar.
