@@ -24,6 +24,7 @@ Keeps one connection to [aisstream.io](https://aisstream.io) (a free AIS feed; n
 | `admin_password` | Optional: share the dashboard's port with guests who can look but not change anything; you sign in on the Alerts tab. The sidebar panel (through Home Assistant) is always signed in |
 | `cesium_token` | Optional: a Cesium ion token (`assets:read`) for the Bridge view, for everyone using the dashboard, guests included |
 | `worldtides_key` | Optional: a [WorldTides](https://www.worldtides.info) API key for the Tides tab's places outside Canada and the US (else the free Open-Meteo tide model) |
+| `sdr_url`, `sdr_channels` | Optional: a **Listen** panel (marine VHF) from a [Pi-SDR](https://github.com/jchisholm59/Pi-SDR) receiver: its address (e.g. `192.168.1.30:8073`) and channels as `Name:MHz;...`, `:noscan` to leave one out of Scan, all within about 6 MHz, e.g. `Ch 16:156.8;Ch 12:156.6;WX 21B:161.65:noscan`. Blank: channels 16, 13, 12 and 14. Your browser plays the audio straight from the receiver, so it must be able to reach it: away from home, e.g. over Tailscale. A plain-http receiver only works when Home Assistant itself is opened over http |
 | `card_options` | Optional card options as JSON, e.g. `{"title": "Harbour", "n": 30}` |
 
 ### Phone alerts through Home Assistant

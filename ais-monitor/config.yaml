@@ -43,4 +43,6 @@ schema:
   admin_password: password?
   cesium_token: password?
   worldtides_key: password?
+  sdr_url: str?
+  sdr_channels: str?
   card_options: str?

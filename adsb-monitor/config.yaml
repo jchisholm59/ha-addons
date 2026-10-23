@@ -43,4 +43,6 @@ schema:
   overhead_radius: float(0.5,20)?
   admin_password: password?
   cesium_token: password?
+  sdr_url: str?
+  sdr_channels: str?
   card_options: str?
