@@ -1,7 +1,7 @@
 name: AIS Monitor
-version: "1.18.1"
+version: "1.19.0"
 slug: ais_monitor
-description: "Ships near places you choose, live from AIS (aisstream.io): map, vessel details, 3D bridge view, harbour arrival and departure alerts."
+description: "Ships near places you choose, live from AIS (aisstream.io): map, vessel details, 3D bridge view, harbour arrival and departure alerts, tide alerts."
 url: https://github.com/jchisholm59/ais-monitor
 arch:
   - aarch64
@@ -30,6 +30,9 @@ schema:
   ntfy_url: str
   ntfy_token: password?
   dashboard_url: str?
+  gmail_user: str?
+  gmail_password: password?
+  gmail_recipient: str?
   location_radius_nm: int(1,500)?
   worldwide: bool?
   area_lat: float?

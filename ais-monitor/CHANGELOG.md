@@ -1,3 +1,6 @@
+## 1.19.0
+**Tide alerts** before high and/or low tide at the Tides tab's stations, and **email alerts** through Gmail (new options `gmail_user`, `gmail_password`, `gmail_recipient`). Ship and tide alerts each choose Home Assistant, ntfy and/or email under **Send by** on the Alerts tab. [ais-monitor v1.19.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.19.0).
+
 ## 1.18.1
 The Listen panel shows when Scan is waiting (pulsing Scan, outlined channel) versus playing; several browsers can listen at once. [ais-monitor v1.18.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.18.1).
 

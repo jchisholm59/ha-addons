@@ -6,7 +6,7 @@ Keeps one connection to [aisstream.io](https://aisstream.io) (a free AIS feed; n
   military, government, commercial, service, fishing or private), 43 historic wrecks with their stories, and a **3D
   bridge view** from any vessel.
 - **Harbour alerts**: warships and cruise ships (optionally Coast Guard) **entering and leaving** a harbour, with a
-  photo of the ship.
+  photo of the ship; **tide alerts** before high and/or low tide. By Home Assistant, ntfy and/or email.
 
 ## Configuration
 | Option | |
@@ -16,6 +16,7 @@ Keeps one connection to [aisstream.io](https://aisstream.io) (a free AIS feed; n
 | `ha_webhook` | Webhook for phone alerts through HA, e.g. `http://homeassistant:8123/api/webhook/<your-id>` (see below) |
 | `ntfy_url` | Or/also [ntfy](https://ntfy.sh): a topic URL with a long random name |
 | `ntfy_token`, `dashboard_url` | Optional: a token for a protected ntfy server; the page an ntfy alert opens |
+| `gmail_user`, `gmail_password`, `gmail_recipient` | Optional: email alerts through Gmail: your address, a Gmail [app password](https://myaccount.google.com/apppasswords) (not your account password) and who gets them (default: yourself). Pick which alerts are emailed under **Send by** on the Alerts tab |
 | `location_radius_nm` | Optional: AIS is received for a box this size around each location (default 40) |
 | `worldwide` | Optional: receive every vessel aisstream has (~6.5 GB/day download, more memory) |
 | `area_lat`, `area_lon`, `area_radius_nm` | Optional wider area to receive as well |
