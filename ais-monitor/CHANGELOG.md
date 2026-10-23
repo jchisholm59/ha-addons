@@ -1,3 +1,6 @@
+## 1.20.0
+New options **`sdr_url`** and **`sdr_channels`** set up the Listen panel without `card_options` JSON (channels as `Name:MHz;...`, blank = marine Ch 16, 13, 12, 14). Big Class A ships are no longer stuck as "Class B", and in the Follow view a ship whose details haven't arrived yet is a cargo ship rather than a tug. [ais-monitor v1.20.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.20.0).
+
 ## 1.19.0
 **Tide alerts** before high and/or low tide at the Tides tab's stations, and **email alerts** through Gmail (new options `gmail_user`, `gmail_password`, `gmail_recipient`). Ship and tide alerts each choose Home Assistant, ntfy and/or email under **Send by** on the Alerts tab. [ais-monitor v1.19.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.19.0).
 
