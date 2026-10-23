@@ -1,3 +1,6 @@
+## 1.16.1
+With `sdr_url` set but no channels, the Listen panel now shows how to add them (`sdr_channels`) instead of not appearing. [adsb-monitor v1.16.1](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.16.1).
+
 ## 1.16.0
 New options **`sdr_url`** and **`sdr_channels`** set up the Listen panel without `card_options` JSON (channels as `Name:MHz;...`, e.g. `Tower:118.4;Ground:121.9;ATIS:121.0:noscan`). [adsb-monitor v1.16.0](https://github.com/jchisholm59/adsb-monitor/releases/tag/v1.16.0).
 

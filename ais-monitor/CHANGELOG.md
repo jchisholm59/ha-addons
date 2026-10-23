@@ -1,3 +1,6 @@
+## 1.20.1
+With `sdr_url` set but no channels, the Listen panel now shows how to add them (`sdr_channels`) instead of not appearing. [ais-monitor v1.20.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.20.1).
+
 ## 1.20.0
 New options **`sdr_url`** and **`sdr_channels`** set up the Listen panel without `card_options` JSON (channels as `Name:MHz;...`, blank = marine Ch 16, 13, 12, 14). Big Class A ships are no longer stuck as "Class B", and in the Follow view a ship whose details haven't arrived yet is a cargo ship rather than a tug. [ais-monitor v1.20.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.20.0).
 
