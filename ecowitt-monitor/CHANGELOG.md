@@ -1,3 +1,6 @@
+## 1.8.0
+Tides at harbour towns the tide model counts as land (e.g. Greenock): it now uses the nearest water within 15 km, and the Tides tab says so ("model point 7 km W of here"). [ecowitt-monitor v1.8.0](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.8.0).
+
 ## 1.7.3
 Addresses in the options work without `http://` (it's added for you; `https://` for an ntfy topic). [ecowitt-monitor v1.7.3](https://github.com/jchisholm59/ecowitt-monitor/releases/tag/v1.7.3).
 

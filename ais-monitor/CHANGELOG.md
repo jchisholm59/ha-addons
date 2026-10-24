@@ -1,3 +1,6 @@
+## 1.21.0
+Tides at harbour towns the tide model counts as land (e.g. Greenock): it now uses the nearest water within 15 km, and the Tides tab says so ("model point 7 km W of here"). [ais-monitor v1.21.0](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.21.0).
+
 ## 1.20.1
 With `sdr_url` set but no channels, the Listen panel now shows how to add them (`sdr_channels`) instead of not appearing. [ais-monitor v1.20.1](https://github.com/jchisholm59/ais-monitor/releases/tag/v1.20.1).
 

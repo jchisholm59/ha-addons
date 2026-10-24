@@ -1,5 +1,5 @@
 name: Ecowitt Monitor
-version: "1.7.3"
+version: "1.8.0"
 slug: ecowitt_monitor
 description: "Ecowitt weather station(s) from Home Assistant's Ecowitt integration: now, graphs up to a year, and alerts (gusts, heavy rain, frost, falling pressure...)."
 url: https://github.com/jchisholm59/ecowitt-monitor
